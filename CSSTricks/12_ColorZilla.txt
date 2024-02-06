@@ -1,0 +1,3 @@
+colorzilla extension
+
+used for pick a color from any website

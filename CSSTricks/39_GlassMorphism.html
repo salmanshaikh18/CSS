@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        
+        html , body{
+          height: 100%;
+          width: 100%;
+        }
+
+        #outer {
+            height: 400px;
+            width: 400px;
+            border-radius: 10px;
+            background-image: url(https://plus.unsplash.com/premium_photo-1673603988651-99f79e4ae7d3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJlfGVufDB8MHwwfHx8MA%3D%3D);
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #inner {
+            height: 250px;
+            width: 250px;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.144);
+            backdrop-filter: blur(10px);
+        }
+
+    </style>
+</head>
+<body>
+    <div id="outer">
+        <div id="inner">
+            <h1>Salman</h1>
+        </div>
+    </div>
+</body>
+</html>
